@@ -1,26 +1,9 @@
 import React, { Component } from 'react';
 
-import Slide_1 from '../img/slide-1.jpg';
-import Slide_2 from '../img/slide-2.jpg';
-import Slide_3 from '../img/slide-3.jpg';
-import Slide_4 from '../img/slide-4.jpg';
-import Slide_5 from '../img/slide-5.jpg';
-import Slide_6 from '../img/slide-6.jpg';
-import Slide_7 from '../img/slide-7.jpg';
-import Slide_8 from '../img/slide-8.jpg';
-import Slide_9 from '../img/slide-9.jpg';
-import Slide_10 from '../img/slide-10.jpg';
-import Slide_11 from '../img/slide-11.jpg';
-import Slide_12 from '../img/slide-12.jpg';
-import Slide_13 from '../img/slide-13.jpg';
-import Slide_14 from '../img/slide-14.jpg';
-import Slide_15 from '../img/slide-15.jpg';
-import Slide_16 from '../img/slide-16.jpg';
-import Slide_17 from '../img/slide-17.jpg';
-import Slide_18 from '../img/slide-18.jpg';
-import Slide_19 from '../img/slide-19.jpg';
-import Slide_20 from '../img/slide-20.jpg';
-import Slide_21 from '../img/slide-21.jpg';
+import Slide_1 from '../../img/slide-1.jpg';
+import Slide_2 from '../../img/slide-2.jpg';
+import Slide_3 from '../../img/slide-3.jpg';
+import Slide_4 from '../../img/slide-4.jpg';
 
 class Slider extends Component {
 	constructor(props) {
@@ -31,23 +14,6 @@ class Slider extends Component {
 				{ eachSlide: `url(${Slide_2})` },
 				{ eachSlide: `url(${Slide_3})` },
 				{ eachSlide: `url(${Slide_4})` },
-				{ eachSlide: `url(${Slide_5})` },
-				{ eachSlide: `url(${Slide_6})` },
-				{ eachSlide: `url(${Slide_7})` },
-				{ eachSlide: `url(${Slide_8})` },
-				{ eachSlide: `url(${Slide_9})` },
-				{ eachSlide: `url(${Slide_10})` },
-				{ eachSlide: `url(${Slide_11})` },
-				{ eachSlide: `url(${Slide_12})` },
-				{ eachSlide: `url(${Slide_13})` },
-				{ eachSlide: `url(${Slide_14})` },
-				{ eachSlide: `url(${Slide_15})` },
-				{ eachSlide: `url(${Slide_16})` },
-				{ eachSlide: `url(${Slide_17})` },
-				{ eachSlide: `url(${Slide_18})` },
-				{ eachSlide: `url(${Slide_19})` },
-				{ eachSlide: `url(${Slide_20})` },
-				{ eachSlide: `url(${Slide_21})` },	
 			],
 			autoplay: false,
 			active: 0,

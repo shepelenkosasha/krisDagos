@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
-import MyForm from './Form';
 import styled from 'styled-components';
 import animated, { fadeInLeftBig } from 'animate.css';
 
@@ -78,34 +75,25 @@ const LinkContact = styled.a`
 	}
 `
 
-class MyContacts extends Component {
+export default class SocialForm extends Component {
 	render(){
-		return (
-			
-			<Row>		
-				<Col lg = {6} md = {12} >
-					<ContactSection className = "animated fadeInLeftBig">
-						<div>
-							<LinkContact href = "krisdagos@yahoo.com.ua" target = "_blank">Email</LinkContact>
-						</div>
-						<div>
-							<LinkContact href = "tel:+393397885472" target = "_blank">Phone</LinkContact>
-						</div>
-						<div>
-							<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Facebook</LinkContact>
-						</div>
-						<div>
-							<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">Instagram</LinkContact>
-						</div>
-					</ContactSection>
-				</Col>
-				<Col lg = {6} md = {12} >
-					<MyForm />
-				</Col>
-			</Row>
+		return(
 
+			<ContactSection className = "animated fadeInLeftBig">
+				<div>
+					<LinkContact href = "krisdagos@yahoo.com.ua" target = "_blank">Email</LinkContact>
+				</div>
+				<div>
+					<LinkContact href = "tel:+393397885472" target = "_blank">Phone</LinkContact>
+				</div>
+				<div>
+					<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Facebook</LinkContact>
+				</div>
+				<div>
+					<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">Instagram</LinkContact>
+				</div>
+			</ContactSection>
+			
 		)
 	}
 }
-
-export default MyContacts;

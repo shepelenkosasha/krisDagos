@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import Logo from '../img/logo_dagos.png';
+import Logo from '../../img/logo_dagos.png';
 
 const List = styled.ul`
 	display: flex;
@@ -36,7 +36,7 @@ class Header extends Component {
 					<nav>
 						<List>
 							<NavLink className = "nav__link" exact to = '/'>Home</NavLink>
-							<NavLink className = "nav__link" exact to = '/about'>About</NavLink>
+							<NavLink className = "nav__link" to = '/about'>About</NavLink>
 							<NavLink className = "nav__link" to = '/gallery'>Gallery</NavLink>
 							<NavLink className = "nav__link" to = '/feedback'>Feedback</NavLink>
 							<NavLink className = "nav__link" to = '/contacts'>Contacts</NavLink>

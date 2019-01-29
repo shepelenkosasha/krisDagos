@@ -155,23 +155,3 @@
 .nav__link:last-child {
   margin-right: 0;
 }
-
-.p__aboutMe {
-  margin-top: 80px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-}
-
-@media (max-width: 768px) {
-    .p__aboutMe{
-      margin-top: 10px;
-    }
-  }
-
-  @media (max-width: 320px) {
-    .p__aboutMe{
-      margin-top: 10px;
-    }
-  }

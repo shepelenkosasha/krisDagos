@@ -4,9 +4,9 @@ import '../App.css';
 import Grid from 'react-bootstrap/lib/Grid';
 import styled from 'styled-components';
 
-import Header from './Header';
+import Header from './Header/Header';
 
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 const HeaderWrapper = styled.header`
   width: 100%;
