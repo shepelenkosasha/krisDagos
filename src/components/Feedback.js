@@ -5,7 +5,7 @@ import Grid from 'react-bootstrap/lib/Grid';
 import styled from 'styled-components';
 
 import Header from './Header/Header';
-
+import FeedbackBlock from './FeedbackBlock/FeedbackBlock';
 import Footer from './Footer/Footer';
 
 const HeaderWrapper = styled.header`
@@ -32,6 +32,7 @@ class Feedback extends Component {
           </HeaderWrapper> 
           <MainWrapper>
             <Grid>
+              <FeedbackBlock />
             </Grid>
           </MainWrapper>
           <FooterWrapper>

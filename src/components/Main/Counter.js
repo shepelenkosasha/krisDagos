@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { zoomInDown } from 'animate.css';
+import { flipInX } from 'animate.css';
 import WOW from 'wowjs';
 
 const SectionCounter = styled.section`
@@ -22,7 +22,7 @@ const DivCounter = styled.div`
 
 	&:last-child {
 		margin-right: 0;
-	}
+	}flipinX
 
 	@media (max-width: 1024px) {
 		margin-top: 20px;
@@ -54,7 +54,7 @@ export default class Counter extends Component {
 
 	render() {
 		return(
-			<SectionCounter className = 'wow zoomInDown'>
+			<SectionCounter className = 'wow flipInX'>
 				<DivCounter>
 					<Count>68</Count>
 					<Paragraph>Photoshoots</Paragraph>

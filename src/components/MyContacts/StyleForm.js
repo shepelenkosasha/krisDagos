@@ -20,7 +20,7 @@ export default styled.section`
     }
 
     @media (max-width: 320px) {
-    width: 300px;
+    width: 290px;
   }
 
     & > div {
