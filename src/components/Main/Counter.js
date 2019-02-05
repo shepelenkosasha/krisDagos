@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+// eslint-disable-next-line 
 import { flipInX } from 'animate.css';
 import WOW from 'wowjs';
 
@@ -22,7 +23,7 @@ const DivCounter = styled.div`
 
 	&:last-child {
 		margin-right: 0;
-	}flipinX
+	}
 
 	@media (max-width: 1024px) {
 		margin-top: 20px;

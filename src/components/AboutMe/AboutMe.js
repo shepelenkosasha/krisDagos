@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import About from '../../img/about.jpg';
 import styled from 'styled-components';
+// eslint-disable-next-line 
 import animated, { fadeInDown, fadeInUp } from 'animate.css';
 
 const ImgAbout = styled.img`
@@ -13,7 +14,7 @@ const ImgAbout = styled.img`
 	margin-top: 30px;
 	margin-bottom: 100px;
 
-	@media (max-width: 768px) {
+	@media (max-width: 1199px) {
 		display: block;
 		width: 300px;
 		margin-top: 20px;
@@ -35,7 +36,7 @@ const Paragraph = styled.p`
 	font-weight: 300;
 	line-height: 24px;
 
-	@media (max-width: 768px) {
+	@media (max-width: 1199px) {
 	    margin-top: 10px;
 	    text-align: center;
 	  }

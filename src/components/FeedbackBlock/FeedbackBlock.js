@@ -12,12 +12,12 @@ export default class FeedbackBlock extends Component {
 	render(){
 		return(
 			<>
-				<Row>			
-					<Col lg = {4} className = 'rigth__text__align'>
+				<Row className="flex">			
+					<Col lg = {4} className = 'rigth__text__align order__2'>
 						<H3>Lorem ipsum dolor sit amet</H3>
 						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
 					</Col>
-					<Col lg = {4} offset = {4}>
+					<Col lg = {4} offset = {4} className="order__1">
 						<Container>
 							<Img />
 						</Container>
@@ -36,17 +36,16 @@ export default class FeedbackBlock extends Component {
 						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
 					</Col>
 				</Row>
-				<Row>				
-					<Col lg = {4} className = 'rigth__text__align'>
+				<Row className="flex">			
+					<Col lg = {4} className = 'rigth__text__align order__2'>
 						<H3>Lorem ipsum dolor sit amet</H3>
 						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
 					</Col>
-					<Col lg = {4} offset = {4}>
+					<Col lg = {4} offset = {4} className="order__1">
 						<Container>
 							<Img />
 						</Container>
 					</Col>
-
 				</Row>
 				<Row>				
 					<Col lg = {4}>
@@ -61,17 +60,16 @@ export default class FeedbackBlock extends Component {
 						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
 					</Col>
 				</Row>
-				<Row>				
-					<Col lg = {4} className = 'rigth__text__align'>
+				<Row className="flex">			
+					<Col lg = {4} className = 'rigth__text__align order__2'>
 						<H3>Lorem ipsum dolor sit amet</H3>
 						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
 					</Col>
-					<Col lg = {4} offset = {4}>
+					<Col lg = {4} offset = {4} className="order__1">
 						<Container>
 							<Img />
 						</Container>
 					</Col>
-
 				</Row>
 				<Row>				
 					<Col lg = {4}>

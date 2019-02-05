@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Field } from 'react-final-form';
 import Styles from './StyleForm';
+// eslint-disable-next-line 
 import animated, { fadeInRightBig } from 'animate.css';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import styled from 'styled-components';
+// eslint-disable-next-line 
 import animated, { fadeInLeftBig } from 'animate.css';
 
 const ContactSection = styled.section`
@@ -16,7 +17,7 @@ const ContactSection = styled.section`
     padding: 20px;
     border-radius: 20px;
 
-	@media (max-width: 1024px) {
+	@media (max-width: 1199px) {
 		width: 340px;
 		height: 230px;
 		margin: 0 auto;

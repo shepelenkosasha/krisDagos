@@ -89,3 +89,20 @@
 .rigth__text__align {
   text-align: right;
 }
+
+@media (max-width: 1199px) {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .order__1 {
+    order: 1;
+    flex: 1;
+  }
+
+  .order__2 {
+    order: 2;
+  }
+}
+
