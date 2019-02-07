@@ -82,7 +82,7 @@ export default class SocialForm extends Component {
 
 			<ContactSection className = "animated fadeInLeftBig">
 				<div>
-					<LinkContact href = "krisdagos@yahoo.com.ua" target = "_blank">Email</LinkContact>
+					<LinkContact href = "mailto:krisdagos@yahoo.com.ua" target = "_blank">Email</LinkContact>
 				</div>
 				<div>
 					<LinkContact href = "tel:+393397885472" target = "_blank">Phone</LinkContact>
