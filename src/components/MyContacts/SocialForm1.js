@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 // eslint-disable-next-line 
-import animated, { fadeInLeftBig } from 'animate.css';
+import animated, { fadeInRightBig } from 'animate.css';
+import { P } from './SocialForm';
 
 const ContactSection = styled.section`
 	display: flex;
@@ -19,14 +20,12 @@ const ContactSection = styled.section`
 		width: 340px;
 		height: 230px;
 		margin: 0 auto;
-		margin-top: 20px;
 		margin-bottom: 20px;
 		align-items: center;
 	}
 
 	@media (max-width: 330px) {
 		width: 300px;
-		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 `
@@ -76,70 +75,23 @@ const LinkContact = styled.a`
 	}
 `
 
-const P = styled.p`
-	display: block;
-	text-align: center;
-	font-size: 14px;
-	text-decoration: none;
-	background-color: #000;
-    color: #fff;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-
-    @media (max-width: 768px) {
-		font-size: 14px;
-	}
-
-	@media (max-width: 320px) {
-		font-size: 12px;
-	}
-
-	&:visited {
-		color: #000;
-		text-decoration: none;
-	}
-
-	&:active {
-		color: #000;
-		text-decoration: none;
-	}
-
-	&:focus {
-		color: #000;
-		text-decoration: none;
-	}	
-
-	&:hover {
-		background-color: #fff;
-	    color: #000;
-	    border: 2px solid #fff;
-		text-decoration: none;
-	}
-`
-
-export default class SocialForm extends Component {
+export default class SocialForm1 extends Component {
 	render(){
 		return(
 			<>
-				<ContactSection className = "animated fadeInLeftBig">
+				<ContactSection className = "animated fadeInRightBig">
 					<div>
-						<LinkContact href = "mailto:krisdagos@yahoo.com.ua">Email</LinkContact>
+						<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Facebook</LinkContact>
 					</div>
-					<P>krisdagos@yahoo.com.ua</P>	
+					<P>kris.dagos.1</P>
 				</ContactSection>
-				<ContactSection className = "animated fadeInLeftBig">
+				<ContactSection className = "animated fadeInRightBig">
 					<div>
-						<LinkContact href = "tel:+393397885472">Phone</LinkContact>
+						<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">Instagram</LinkContact>
 					</div>
-					<P>+393397885472</P>	
+					<P>dagos_photographer</P>
 				</ContactSection>
 			</>
 		)
 	}
 }
-
-export { P };
