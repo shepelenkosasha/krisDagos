@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 // eslint-disable-next-line 
 import animated, { fadeInRightBig } from 'animate.css';
-import { P } from './SocialForm';
+import InstagramLogo from '../../img/instagram.png';
+import FacebookLogo from '../../img/facebook-logo.png';
 
 const ContactSection = styled.section`
 	display: flex;
@@ -17,7 +18,7 @@ const ContactSection = styled.section`
     border-radius: 20px;
 
 	@media (max-width: 1199px) {
-		width: 340px;
+		width: 330px;
 		height: 230px;
 		margin: 0 auto;
 		margin-bottom: 20px;
@@ -25,19 +26,18 @@ const ContactSection = styled.section`
 	}
 
 	@media (max-width: 330px) {
-		width: 300px;
+		width: 290px;
 		margin-bottom: 10px;
 	}
 `
 
 const LinkContact = styled.a`
 	display: block;
-	width: 124px;
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
-	background-color: #fff;
-    color: #000;
+	background-color: #000;
+    color: #fff;
     padding: 5px 20px;
     border-radius: 20px;
     border: 2px solid #fff;
@@ -53,23 +53,23 @@ const LinkContact = styled.a`
 	}
 
 	&:visited {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}
 
 	&:active {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}
 
 	&:focus {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}	
 
 	&:hover {
-		background-color: #000;
-	    color: #fff;
+		background-color: #fff;
+	    color: #000;
 	    border: 2px solid #fff;
 		text-decoration: none;
 	}
@@ -80,16 +80,16 @@ export default class SocialForm1 extends Component {
 		return(
 			<>
 				<ContactSection className = "animated fadeInRightBig">
+					<img className = 'social__fb' src = { FacebookLogo } alt = 'FacebookLogo' />
 					<div>
-						<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Facebook</LinkContact>
+						<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Kris Dagos</LinkContact>
 					</div>
-					<P>kris.dagos.1</P>
 				</ContactSection>
 				<ContactSection className = "animated fadeInRightBig">
+					<img className = 'social__inst' src = { InstagramLogo } alt = 'InstagramLogo' />
 					<div>
-						<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">Instagram</LinkContact>
+						<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">dagos_photographer</LinkContact>
 					</div>
-					<P>dagos_photographer</P>
 				</ContactSection>
 			</>
 		)

@@ -106,3 +106,36 @@
   }
 }
 
+.social__gmail {
+  width: 100px; 
+  height: 100px;
+}
+
+.social__viber,
+.social__fb {
+  width: 80px; 
+  height: 80px;
+}
+
+.social__inst {
+  width: 110px; 
+  height: 110px;
+}
+
+@media (max-width: 1199px) {
+  .social__viber,
+  .social__fb {
+    width: 70px; 
+    height: 70px;
+  }
+
+  .social__gmail {
+    width: 80px; 
+    height: 80px
+  }
+
+  .social__inst {
+    width: 90px; 
+    height: 90px;
+  }
+}

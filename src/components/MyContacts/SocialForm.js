@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 // eslint-disable-next-line 
 import animated, { fadeInLeftBig } from 'animate.css';
+import Viber from '../../img/phone-logo.png';
+import GmailIcon from '../../img/Gmail-icon.png';
 
 const ContactSection = styled.section`
 	display: flex;
@@ -16,7 +18,7 @@ const ContactSection = styled.section`
     border-radius: 20px;
 
 	@media (max-width: 1199px) {
-		width: 340px;
+		width: 330px;
 		height: 230px;
 		margin: 0 auto;
 		margin-top: 20px;
@@ -25,7 +27,7 @@ const ContactSection = styled.section`
 	}
 
 	@media (max-width: 330px) {
-		width: 300px;
+		width: 290px;
 		margin-top: 20px;
 		margin-bottom: 10px;
 	}
@@ -33,12 +35,11 @@ const ContactSection = styled.section`
 
 const LinkContact = styled.a`
 	display: block;
-	width: 124px;
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
-	background-color: #fff;
-    color: #000;
+	background-color: #000;
+    color: #fff;
     padding: 5px 20px;
     border-radius: 20px;
     border: 2px solid #fff;
@@ -54,62 +55,17 @@ const LinkContact = styled.a`
 	}
 
 	&:visited {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}
 
 	&:active {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}
 
 	&:focus {
-		color: #000;
-		text-decoration: none;
-	}	
-
-	&:hover {
-		background-color: #000;
-	    color: #fff;
-	    border: 2px solid #fff;
-		text-decoration: none;
-	}
-`
-
-const P = styled.p`
-	display: block;
-	text-align: center;
-	font-size: 14px;
-	text-decoration: none;
-	background-color: #000;
-    color: #fff;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-
-    @media (max-width: 768px) {
-		font-size: 14px;
-	}
-
-	@media (max-width: 320px) {
-		font-size: 12px;
-	}
-
-	&:visited {
-		color: #000;
-		text-decoration: none;
-	}
-
-	&:active {
-		color: #000;
-		text-decoration: none;
-	}
-
-	&:focus {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 	}	
 
@@ -126,20 +82,19 @@ export default class SocialForm extends Component {
 		return(
 			<>
 				<ContactSection className = "animated fadeInLeftBig">
+					<img className = 'social__gmail' src = { GmailIcon } alt = 'GmailIcon' />
 					<div>
-						<LinkContact href = "mailto:krisdagos@yahoo.com.ua">Email</LinkContact>
-					</div>
-					<P>krisdagos@yahoo.com.ua</P>	
+						<LinkContact href = "mailto:krisdagos@yahoo.com.ua">krisdagos@yahoo.com.ua
+						</LinkContact>
+					</div>	
 				</ContactSection>
 				<ContactSection className = "animated fadeInLeftBig">
+					<img className = 'social__viber' src = { Viber } alt = 'Viber' />
 					<div>
-						<LinkContact href = "tel:+393397885472">Phone</LinkContact>
-					</div>
-					<P>+393397885472</P>	
+						<LinkContact href = "tel:+393397885472">+393397885472</LinkContact>
+					</div>	
 				</ContactSection>
 			</>
 		)
 	}
 }
-
-export { P };
