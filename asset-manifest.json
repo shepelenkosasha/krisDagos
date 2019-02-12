@@ -1,7 +1,7 @@
 {
   "main.css": "/krisDagos/static/css/main.c4cdb3c4.chunk.css",
-  "main.js": "/krisDagos/static/js/main.0c5d6d6c.chunk.js",
-  "main.js.map": "/krisDagos/static/js/main.0c5d6d6c.chunk.js.map",
+  "main.js": "/krisDagos/static/js/main.d2bf6fdc.chunk.js",
+  "main.js.map": "/krisDagos/static/js/main.d2bf6fdc.chunk.js.map",
   "static/css/1.49189446.chunk.css": "/krisDagos/static/css/1.49189446.chunk.css",
   "static/js/1.db3e5f79.chunk.js": "/krisDagos/static/js/1.db3e5f79.chunk.js",
   "static/js/1.db3e5f79.chunk.js.map": "/krisDagos/static/js/1.db3e5f79.chunk.js.map",
@@ -36,6 +36,6 @@
   "static/css/main.c4cdb3c4.chunk.css.map": "/krisDagos/static/css/main.c4cdb3c4.chunk.css.map",
   "static/css/1.49189446.chunk.css.map": "/krisDagos/static/css/1.49189446.chunk.css.map",
   "index.html": "/krisDagos/index.html",
-  "precache-manifest.fe5105dc94fd4d8a2b36aa3484c1a970.js": "/krisDagos/precache-manifest.fe5105dc94fd4d8a2b36aa3484c1a970.js",
+  "precache-manifest.8a2d9ea72aadb283f2a01a48615dc8a5.js": "/krisDagos/precache-manifest.8a2d9ea72aadb283f2a01a48615dc8a5.js",
   "service-worker.js": "/krisDagos/service-worker.js"
 }
