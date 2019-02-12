@@ -12,11 +12,11 @@ class App extends Component {
     return (
         <div className = "App">
           <Switch>
-            <Route exact path = "/" component = { Home } />
-            <Route path = "/about" component = { About } />
-            <Route path = "/gallery" component = { Gallery } />
-            <Route path = "/feedback" component = { Feedback } />
-            <Route path = "/contacts" component = { Contacts } />
+            <Route exact path = { process.env.PUBLIC_URL + '/' } component = { Home } />
+            <Route path = { process.env.PUBLIC_URL + '/about' } component = { About } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery' } component = { Gallery } />
+            <Route path = { process.env.PUBLIC_URL + '/feedback' } component = { Feedback } />
+            <Route path = { process.env.PUBLIC_URL + '/contacts' } component = { Contacts } />
           </Switch>
         </div>    
     );

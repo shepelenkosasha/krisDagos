@@ -22,7 +22,7 @@ const Facebook = styled.a`
 	border: 3px solid #ffffff;
 	border-radius: 50%;
 	background-color: #000;
-	background-image: url(../img/social-sprite.png);
+	background-image: url(../../img/social-sprite.png);
 	background-position: -44px -43px;
 
 	&:hover {
@@ -39,13 +39,13 @@ const Instagram = styled.a`
 	border: 3px solid #ffffff;
 	border-radius: 50%;
 	background-color: #000;
-	background-image: url(../img/inst.png);
+	background-image: url(../../img/inst.png);
 	background-position: -1px -2px;
 
 	&:hover {
 		background-color: #fff;
 		border-color: #fff;
-		background-image: url(../img/hoverInst.png);
+		background-image: url(../../img/hoverInst.png);
 		background-position: center center;
 		background-repeat: no-repeat;
 	}
