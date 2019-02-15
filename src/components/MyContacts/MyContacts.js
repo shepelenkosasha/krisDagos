@@ -11,7 +11,7 @@ class MyContacts extends Component {
 		return (
 			
 			<Row>
-				<Col lg = {2}></Col>		
+				<Col lg = {2} md = {0}></Col>		
 				<Col lg = {4} md = {12} >
 					<SocialForm />
 				</Col>

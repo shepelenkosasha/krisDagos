@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 // eslint-disable-next-line 
-import animated, { fadeInLeftBig } from 'animate.css';
+import { fadeInLeftBig } from 'animate.css';
+import WOW from 'wowjs';
 import Viber from '../../img/phone-logo.png';
 import GmailIcon from '../../img/Gmail-icon.png';
 
@@ -74,17 +75,23 @@ const LinkContact = styled.a`
 `
 
 export default class SocialForm extends Component {
+
+	componentDidMount() {
+	    const wow = new WOW.WOW();
+	    wow.init();
+	}wow
+
 	render(){
 		return(
 			<>
-				<ContactSection className = "animated fadeInLeftBig">
+				<ContactSection className = "wow fadeInLeftBig">
 					<img className = 'social__gmail' src = { GmailIcon } alt = 'GmailIcon' />
 					<div>
 						<LinkContact href = "mailto:krisdagos@yahoo.com.ua">krisdagos@yahoo.com.ua
 						</LinkContact>
 					</div>	
 				</ContactSection>
-				<ContactSection className = "animated fadeInLeftBig">
+				<ContactSection className = "wow fadeInLeftBig">
 					<img className = 'social__viber' src = { Viber } alt = 'Viber' />
 					<div>
 						<LinkContact href = "tel:+393397885472">+393397885472</LinkContact>

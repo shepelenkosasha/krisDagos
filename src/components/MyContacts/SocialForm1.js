@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 // eslint-disable-next-line 
-import animated, { fadeInRightBig } from 'animate.css';
-import InstagramLogo from '../../img/instagram.png';
+import { fadeInRightBig } from 'animate.css';
+import WOW from 'wowjs';import InstagramLogo from '../../img/instagram.png';
 import FacebookLogo from '../../img/facebook-logo.png';
 
 const ContactSection = styled.section`
@@ -44,7 +44,7 @@ const LinkContact = styled.a`
     font-weight: bold;
     text-transform: uppercase;
 
-	@media (max-width: 320px) {
+	@media (max-width: 1199px) {
 		font-size: 12px;
 	}
 
@@ -72,16 +72,22 @@ const LinkContact = styled.a`
 `
 
 export default class SocialForm1 extends Component {
+
+	componentDidMount() {
+	    const wow = new WOW.WOW();
+	    wow.init();
+	}wow
+
 	render(){
 		return(
 			<>
-				<ContactSection className = "animated fadeInRightBig">
+				<ContactSection className = "wow fadeInRightBig">
 					<img className = 'social__fb' src = { FacebookLogo } alt = 'FacebookLogo' />
 					<div>
 						<LinkContact href = "//www.facebook.com/kris.dagos.1" target = "_blank">Kris Dagos</LinkContact>
 					</div>
 				</ContactSection>
-				<ContactSection className = "animated fadeInRightBig">
+				<ContactSection className = "wow fadeInRightBig">
 					<img className = 'social__inst' src = { InstagramLogo } alt = 'InstagramLogo' />
 					<div>
 						<LinkContact href = "//www.instagram.com/dagos_photographer" target = "_blank">dagos_photographer</LinkContact>
