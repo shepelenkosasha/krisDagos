@@ -122,11 +122,11 @@ const GalleryImg = styled.img`
 `
 
 class MainGallery extends Component {
-
+	
 	componentDidMount() {
 	    const wow = new WOW.WOW();
 	    wow.init();
-	  }wow
+	}wow
 
 	render(){
 

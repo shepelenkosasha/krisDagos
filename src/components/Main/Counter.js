@@ -49,9 +49,9 @@ const Paragraph = styled.p`
 export default class Counter extends Component {
 
 	componentDidMount() {
-	    const wow = new WOW.WOW();
+		const wow = new WOW.WOW();
 	    wow.init();
-	  }wow
+	}wow
 
 	render() {
 		return(

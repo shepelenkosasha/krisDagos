@@ -44,10 +44,6 @@ const LinkContact = styled.a`
     font-weight: bold;
     text-transform: uppercase;
 
-	@media (max-width: 768px) {
-		font-size: 14px;
-	}
-
 	@media (max-width: 320px) {
 		font-size: 12px;
 	}
