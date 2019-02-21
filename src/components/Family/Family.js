@@ -33,7 +33,7 @@ const Section = styled.section`
 	flex-wrap: wrap;
 `
 
-export default class Wedding extends Component {
+export default class Family extends Component {
 	render(){
 		return(
 

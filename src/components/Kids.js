@@ -5,7 +5,7 @@ import Grid from 'react-bootstrap/lib/Grid';
 import styled from 'styled-components';
 
 import Header from './Header/Header';
-import Animal from './Animal/Animal';
+import Kid from './Kid/Kid';
 import Footer from './Footer/Footer';
 
 const HeaderWrapper = styled.header`
@@ -32,7 +32,7 @@ class About extends Component {
           </HeaderWrapper> 
           <MainWrapper>
             <Grid>
-              <Animal />
+              <Kid />
             </Grid>
           </MainWrapper>
           <FooterWrapper>

@@ -9,7 +9,7 @@ import Weddings from './components/Weddings';
 import Families from './components/Families';
 import Couples from './components/Couples';
 import Girls from './components/Girls';
-import Animals from './components/Animals';
+import Kids from './components/Kids';
 import Contacts from './components/Contacts';
 
 class App extends Component {
@@ -24,7 +24,7 @@ class App extends Component {
             <Route path = { process.env.PUBLIC_URL + '/gallery/families' } component = { Families } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/couples' } component = { Couples } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/girls' } component = { Girls } />
-            <Route path = { process.env.PUBLIC_URL + '/gallery/animals' } component = { Animals } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/kids' } component = { Kids } />
             <Route path = { process.env.PUBLIC_URL + '/feedback' } component = { Feedback } />
             <Route path = { process.env.PUBLIC_URL + '/contacts' } component = { Contacts } />
           </Switch>

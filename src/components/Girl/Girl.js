@@ -37,7 +37,7 @@ const Section = styled.section`
 	flex-wrap: wrap;
 `
 
-export default class Wedding extends Component {
+export default class Girl extends Component {
 	render(){
 		return(
 

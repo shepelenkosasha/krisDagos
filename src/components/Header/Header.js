@@ -19,6 +19,9 @@ const Heading = styled.img`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #000;
+	width: 240px;
+	height: 190px;
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 30px;

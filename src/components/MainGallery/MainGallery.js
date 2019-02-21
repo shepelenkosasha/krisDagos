@@ -9,7 +9,7 @@ import Weddings from '../../img/Wedding.jpg';
 import Families from '../../img/Family.jpg';
 import Couples from '../../img/Wedding.jpg';
 import Girls from '../../img/Girls.jpg';
-import Animals from '../../img/Children.jpg';
+import Kids from '../../img/Children.jpg';
 
 const Figure = styled.figure`
 	background: #000;
@@ -19,12 +19,26 @@ const Figure = styled.figure`
 	padding: 10px;
 	border: 3px solid #fff;
 	border-radius: 10px;
+	margin-right: 30px;
 	margin-bottom: 30px;
+	
+	&:nth-child(2n),
+	&:nth-child(4n)
+	 {
+		margin-right: 0;
+	}
 
 	@media (max-width: 1199px) {
 		width: 300px;
 		height: 300px;
+		margin-right: 10px;
 		margin-bottom: 10px;
+
+		&:nth-child(2n),
+		&:nth-child(4n)
+		 {
+			margin-right: 0;
+		}
 	}
 `
 
@@ -35,7 +49,7 @@ const Figcaption = styled.figcaption`
 
 const Section = styled.section`
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 `
 
@@ -70,15 +84,15 @@ class MainGallery extends Component {
 						</Figure>
 						<Figure>
 							<NavLink to = '/gallery/couples'><Img src = { Couples } /></NavLink>
-							<Figcaption>Couples</Figcaption>
+							<Figcaption>Love stories</Figcaption>
 						</Figure>
 						<Figure>
 							<NavLink to = '/gallery/girls'><Img src = { Girls } /></NavLink>
 							<Figcaption>Girls</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/gallery/animals'><Img src = { Animals } /></NavLink>
-							<Figcaption>Animals</Figcaption>
+							<NavLink to = '/gallery/kids'><Img src = { Kids } /></NavLink>
+							<Figcaption>Kids</Figcaption>
 						</Figure>
 					</Section>	
 				</Col>
