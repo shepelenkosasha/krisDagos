@@ -19,12 +19,12 @@ class App extends Component {
           <Switch>
             <Route exact path = { process.env.PUBLIC_URL + '/' } component = { Home } />
             <Route path = { process.env.PUBLIC_URL + '/about' } component = { About } />
-            <Route path = { process.env.PUBLIC_URL + '/gallery' } component = { Gallery } />
-            <Route path = { process.env.PUBLIC_URL + '/weddings' } component = { Weddings } />
-            <Route path = { process.env.PUBLIC_URL + '/families' } component = { Families } />
-            <Route path = { process.env.PUBLIC_URL + '/couples' } component = { Couples } />
-            <Route path = { process.env.PUBLIC_URL + '/girls' } component = { Girls } />
-            <Route path = { process.env.PUBLIC_URL + '/animals' } component = { Animals } />
+            <Route exact path = { process.env.PUBLIC_URL + '/gallery' } component = { Gallery } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/weddings' } component = { Weddings } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/families' } component = { Families } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/couples' } component = { Couples } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/girls' } component = { Girls } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/animals' } component = { Animals } />
             <Route path = { process.env.PUBLIC_URL + '/feedback' } component = { Feedback } />
             <Route path = { process.env.PUBLIC_URL + '/contacts' } component = { Contacts } />
           </Switch>

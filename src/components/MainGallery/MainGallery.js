@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 import Weddings from '../../img/Wedding.jpg';
 import Families from '../../img/Family.jpg';
-import Couples from '../../img/slide-5.jpg';
+import Couples from '../../img/Wedding.jpg';
 import Girls from '../../img/Girls.jpg';
 import Animals from '../../img/Children.jpg';
 
@@ -19,7 +19,7 @@ const Figure = styled.figure`
 	padding: 10px;
 	border: 3px solid #fff;
 	border-radius: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 
 	@media (max-width: 1199px) {
 		width: 300px;
@@ -61,23 +61,23 @@ class MainGallery extends Component {
 				<Col lg = {12} >
 					<Section>
 						<Figure>
-							<NavLink to = '/weddings'><Img src = { Weddings } /></NavLink>
+							<NavLink to = '/gallery/weddings'><Img src = { Weddings } /></NavLink>
 							<Figcaption>Weddings</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/families'><Img src = { Families } /></NavLink>
+							<NavLink to = '/gallery/families'><Img src = { Families } /></NavLink>
 							<Figcaption>Families</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/couples'><Img src = { Couples } /></NavLink>
+							<NavLink to = '/gallery/couples'><Img src = { Couples } /></NavLink>
 							<Figcaption>Couples</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/girls'><Img src = { Girls } /></NavLink>
+							<NavLink to = '/gallery/girls'><Img src = { Girls } /></NavLink>
 							<Figcaption>Girls</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/animals'><Img src = { Animals } /></NavLink>
+							<NavLink to = '/gallery/animals'><Img src = { Animals } /></NavLink>
 							<Figcaption>Animals</Figcaption>
 						</Figure>
 					</Section>	
