@@ -1,9 +1,12 @@
 import React from "react";
 import Carousel from 'react-bootstrap/lib/Carousel';
 
-import Slide_8 from '../../img/slide-8.jpg';
-import Slide_21 from '../../img/slide-21.jpg';
-import Slide_15 from '../../img/slide-15.jpg';
+import Children from '../../img/Children.jpg';
+import Events from '../../img/Events.jpg';
+import Family from '../../img/Family.jpg';
+import Girls from '../../img/Girls.jpg';
+import Wedding from '../../img/Wedding.jpg';
+import Pregnancy from '../../img/Pregnancy.jpg';
 
 export default class ControlledCarousel extends React.Component {
   constructor(props, context) {
@@ -36,21 +39,42 @@ export default class ControlledCarousel extends React.Component {
         <Carousel.Item>
           <img
             className="slide__img"
-            src= { Slide_8 }
+            src= { Children }
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="slide__img"
-            src= { Slide_21 }
+            src= { Family }
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="slide__img"
-            src= { Slide_15 }
+            src= { Events }
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slide__img"
+            src= { Girls }
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slide__img"
+            src= { Pregnancy }
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slide__img"
+            src= { Wedding }
             alt="Third slide"
           />
         </Carousel.Item>

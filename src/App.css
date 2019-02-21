@@ -139,3 +139,45 @@
     height: 90px;
   }
 }
+
+.backLink {
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 1199px) {
+  .backLink {
+    font-size: 12px;
+  }  
+}
+
+.backLink:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.backLink:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.backLink:focus {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.backLink:hover {
+  background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  text-decoration: none;
+}

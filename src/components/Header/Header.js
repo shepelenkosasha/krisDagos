@@ -38,7 +38,7 @@ class Header extends Component {
 							<NavLink className = "nav__link" exact to = '/'>Home</NavLink>
 							<NavLink className = "nav__link" to = '/about'>About</NavLink>
 							<NavLink className = "nav__link" to = '/gallery'>Gallery</NavLink>
-							<NavLink className = "nav__link" to = '/feedback'>Feedback</NavLink>
+							
 							<NavLink className = "nav__link" to = '/contacts'>Contacts</NavLink>
 						</List>
 					</nav>
