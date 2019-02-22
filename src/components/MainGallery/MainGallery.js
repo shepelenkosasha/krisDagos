@@ -7,10 +7,10 @@ import { NavLink } from 'react-router-dom';
 
 import Weddings from '../../img/Wedding.jpg';
 import Families from '../../img/Family.jpg';
-import Couples from '../../img/Wedding.jpg';
+import Couples from '../../img/LoveStory.jpg';
 import Girls from '../../img/Girls.jpg';
 import Kids from '../../img/Children.jpg';
-import Pregnancy from '../../img/Children.jpg';
+import Pregnancy from '../../img/Pregnancy.jpg';
 
 const Figure = styled.figure`
 	background: #000;

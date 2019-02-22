@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../img/logo_dagos.png';
+import Logo from '../../img/logo_dagos.jpeg';
 
 const List = styled.ul`
 	display: flex;

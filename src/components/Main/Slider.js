@@ -7,6 +7,7 @@ import Family from '../../img/Family.jpg';
 import Girls from '../../img/Girls.jpg';
 import Wedding from '../../img/Wedding.jpg';
 import Pregnancy from '../../img/Pregnancy.jpg';
+import LoveStory from '../../img/LoveStory.jpg'
 
 export default class ControlledCarousel extends React.Component {
   constructor(props, context) {
@@ -75,6 +76,13 @@ export default class ControlledCarousel extends React.Component {
           <img
             className="slide__img"
             src= { Wedding }
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slide__img"
+            src= { LoveStory }
             alt="Third slide"
           />
         </Carousel.Item>
