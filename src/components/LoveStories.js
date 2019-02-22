@@ -5,7 +5,7 @@ import Grid from 'react-bootstrap/lib/Grid';
 import styled from 'styled-components';
 
 import Header from './Header/Header';
-import Couple from './Couple/Couple';
+import LoveStorie from './LoveStorie/LoveStorie';
 import Footer from './Footer/Footer';
 
 const HeaderWrapper = styled.header`
@@ -21,7 +21,7 @@ const FooterWrapper = styled.footer`
   background-color: #000;
 `
 
-class CoupleBlock extends Component {
+class LoveStorieBlock extends Component {
   render() {
     return (
         <>
@@ -32,7 +32,7 @@ class CoupleBlock extends Component {
           </HeaderWrapper> 
           <MainWrapper>
             <Grid>
-              <Couple />
+              <LoveStorie />
             </Grid>
           </MainWrapper>
           <FooterWrapper>
@@ -45,4 +45,4 @@ class CoupleBlock extends Component {
   }
 }
 
-export default CoupleBlock;
+export default LoveStorieBlock;

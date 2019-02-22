@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from 'react-bootstrap/lib/Carousel';
+import { NavLink } from 'react-router-dom';
 
 import Children from '../../img/Children.jpg';
-import Events from '../../img/Events.jpg';
 import Family from '../../img/Family.jpg';
 import Girls from '../../img/Girls.jpg';
 import Wedding from '../../img/Wedding.jpg';
@@ -38,53 +38,58 @@ export default class ControlledCarousel extends React.Component {
         onSelect={this.handleSelect}
       >
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Children }
-            alt="First slide"
-          />
+          <NavLink to = '/gallery/kids'>
+            <img
+              className="slide__img"
+              src= { Children }
+              alt="First slide"
+            />
+          </NavLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Family }
-            alt="Third slide"
-          />
+          <NavLink to = '/gallery/families'>
+            <img
+              className="slide__img"
+              src= { Family }
+              alt="Third slide"
+            />
+          </NavLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Events }
-            alt="Third slide"
-          />
+          <NavLink to = '/gallery/girls'>
+            <img
+              className="slide__img"
+              src= { Girls }
+              alt="Third slide"
+            />
+          </NavLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Girls }
-            alt="Third slide"
-          />
+          <NavLink to = '/gallery/pregnancy'>
+            <img
+              className="slide__img"
+              src= { Pregnancy }
+              alt="Third slide"
+            />
+          </NavLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Pregnancy }
-            alt="Third slide"
-          />
+          <NavLink to = '/gallery/weddings'>
+            <img
+              className="slide__img"
+              src= { Wedding }
+              alt="Third slide"
+            />
+          </NavLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { Wedding }
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="slide__img"
-            src= { LoveStory }
-            alt="Third slide"
-          />
+          <NavLink to = '/gallery/lovestories'>
+            <img
+              className="slide__img"
+              src= { LoveStory }
+              alt="Third slide"
+            />
+          </NavLink>
         </Carousel.Item>
       </Carousel>
     );

@@ -7,7 +7,7 @@ import Gallery from './components/Gallery';
 import Feedback from './components/Feedback';
 import Weddings from './components/Weddings';
 import Families from './components/Families';
-import Couples from './components/Couples';
+import LoveStories from './components/LoveStories';
 import Girls from './components/Girls';
 import Kids from './components/Kids';
 import Pregnancies from './components/Pregnancies';
@@ -23,7 +23,7 @@ class App extends Component {
             <Route exact path = { process.env.PUBLIC_URL + '/gallery' } component = { Gallery } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/weddings' } component = { Weddings } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/families' } component = { Families } />
-            <Route path = { process.env.PUBLIC_URL + '/gallery/couples' } component = { Couples } />
+            <Route path = { process.env.PUBLIC_URL + '/gallery/lovestories' } component = { LoveStories } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/girls' } component = { Girls } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/kids' } component = { Kids } />
             <Route path = { process.env.PUBLIC_URL + '/gallery/pregnancy' } component = { Pregnancies } />

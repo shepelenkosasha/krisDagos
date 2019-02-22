@@ -36,7 +36,7 @@ const Section = styled.section`
 	}
 `
 
-export default class Couple extends Component {
+export default class LoveStorie extends Component {
 	render(){
 		return(
 

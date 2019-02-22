@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 import Weddings from '../../img/Wedding.jpg';
 import Families from '../../img/Family.jpg';
-import Couples from '../../img/LoveStory.jpg';
+import LoveStories from '../../img/LoveStory.jpg';
 import Girls from '../../img/Girls.jpg';
 import Kids from '../../img/Children.jpg';
 import Pregnancy from '../../img/Pregnancy.jpg';
@@ -177,7 +177,7 @@ class MainGallery extends Component {
 							<Figcaption>Families</Figcaption>
 						</Figure>
 						<Figure>
-							<NavLink to = '/gallery/couples'><Img src = { Couples } /></NavLink>
+							<NavLink to = '/gallery/lovestories'><Img src = { LoveStories } /></NavLink>
 							<Figcaption>Love stories</Figcaption>
 						</Figure>
 						<Figure>
