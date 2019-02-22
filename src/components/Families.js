@@ -21,7 +21,7 @@ const FooterWrapper = styled.footer`
   background-color: #000;
 `
 
-class About extends Component {
+class FamilyBlock extends Component {
   render() {
     return (
         <>
@@ -45,4 +45,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default FamilyBlock;

@@ -10,6 +10,7 @@ import Families from '../../img/Family.jpg';
 import Couples from '../../img/Wedding.jpg';
 import Girls from '../../img/Girls.jpg';
 import Kids from '../../img/Children.jpg';
+import Pregnancy from '../../img/Children.jpg';
 
 const Figure = styled.figure`
 	background: #000;
@@ -31,11 +32,94 @@ const Figure = styled.figure`
 	@media (max-width: 1199px) {
 		width: 300px;
 		height: 300px;
-		margin-right: 10px;
+		margin-bottom: 20px;
+
+		&:nth-child(1n),
+		&:nth-child(2n),
+		&:nth-child(4n),
+		&:nth-child(5n)
+		 {
+			margin-right: 20px;
+		}
+
+		&:nth-child(3n),
+		&:nth-child(6n)
+		 {
+			margin-right: 0;
+		}
+	}
+
+	@media (max-width: 999px) {
+		width: 300px;
+		height: 300px;
+		margin-bottom: 20px;
+
+		&:nth-child(1n),
+		&:nth-child(2n),
+		&:nth-child(4n),
+		&:nth-child(5n)
+		 {
+			margin-right: 20px;
+		}
+
+		&:nth-child(3n),
+		&:nth-child(6n)
+		 {
+			margin-right: 0;
+		}
+	}
+
+	@media (max-width: 991px) {
+		width: 300px;
+		height: 300px;
+		margin-bottom: 20px;
+
+		&:nth-child(1n),
+		&:nth-child(3n),
+		&:nth-child(5n)
+		 {
+			margin-right: 20px;
+		}
+
+		&:nth-child(2n),
+		&:nth-child(4n),
+		&:nth-child(6n)
+		 {
+			margin-right: 0;
+		}
+	}
+
+	@media (max-width: 680px) {
+		width: 250px;
+		height: 250px;
 		margin-bottom: 10px;
 
 		&:nth-child(2n),
-		&:nth-child(4n)
+		&:nth-child(4n),
+		&:nth-child(6n)
+		 {
+			margin-right: 0;
+		}
+
+		&:nth-child(1n),
+		&:nth-child(3n),
+		&:nth-child(5n)
+		 {
+			margin-right: 10px;
+		}
+	}
+
+	@media (max-width: 540px) {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 10px;
+
+		&:nth-child(1n),
+		&:nth-child(2n),
+		&:nth-child(3n),
+		&:nth-child(4n),
+		&:nth-child(5n),
+		&:nth-child(6n)
 		 {
 			margin-right: 0;
 		}
@@ -51,6 +135,11 @@ const Section = styled.section`
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+
+	@media (max-width: 540px) {
+		flex-direction: column;
+		align-items: center;
+	}
 `
 
 const Img = styled.img`
@@ -62,6 +151,11 @@ const Img = styled.img`
 	@media (max-width: 1199px) {
 		width: 240px;
 		height: 240px;
+	}
+
+	@media (max-width: 680px) {
+		width: 190px;
+		height: 190px;
 	}
 `
 
@@ -93,6 +187,10 @@ class MainGallery extends Component {
 						<Figure>
 							<NavLink to = '/gallery/kids'><Img src = { Kids } /></NavLink>
 							<Figcaption>Kids</Figcaption>
+						</Figure>
+						<Figure>
+							<NavLink to = '/gallery/pregnancy'><Img src = { Pregnancy } /></NavLink>
+							<Figcaption>Pregnancy</Figcaption>
 						</Figure>
 					</Section>	
 				</Col>

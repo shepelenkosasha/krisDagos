@@ -35,6 +35,11 @@ const Section = styled.section`
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+
+	@media (max-width: 650px) {
+		flex-direction: column;
+		align-items: center;
+	}
 `
 
 export default class Girl extends Component {

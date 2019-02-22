@@ -5,11 +5,8 @@ import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-import Slide_17 from '../../img/slide-17.jpg';
-import Slide_18 from '../../img/slide-18.jpg';
-import Slide_21 from '../../img/slide-21.jpg';
-import Slide_19 from '../../img/slide-19.jpg';
-import Slide_20 from '../../img/slide-20.jpg';
+import Slide_7 from '../../img/slide-7.jpg';
+import Slide_8 from '../../img/slide-8.jpg';
 
 const Img = styled.img`
 	background-size: contain;
@@ -21,8 +18,7 @@ const Img = styled.img`
 		margin-bottom: 20px;
 	}
 	@media (max-width: 650px) {
-		max-width: 300px;
-		height: 200px;
+		height: 300px;
 		margin-bottom: 10px;
 	}
 	
@@ -38,18 +34,15 @@ const Section = styled.section`
 	}
 `
 
-export default class Kid extends Component {
+export default class Pregnancy extends Component {
 	render(){
 		return(
 
 			<Row>		
 				<Col lg = {12} >
 					<Section>
-						<Img src = { Slide_17 } />
-						<Img src = { Slide_18 } />
-						<Img src = { Slide_19 } />
-						<Img src = { Slide_20 } />
-						<Img src = { Slide_21 } />
+						<Img src = { Slide_7 } />
+						<Img src = { Slide_8 } />
 					</Section>
 					<NavLink className = 'backLink' to = '/gallery'>Back</NavLink>
 				</Col>
