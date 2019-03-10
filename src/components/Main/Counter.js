@@ -57,19 +57,19 @@ export default class Counter extends Component {
 		return(
 			<SectionCounter className = 'wow flipInX'>
 				<DivCounter>
-					<Count>68</Count>
+					<Count>112</Count>
 					<Paragraph>Photoshoots</Paragraph>
 				</DivCounter>
 				<DivCounter>
-					<Count>89</Count>
+					<Count>193</Count>
 					<Paragraph>Happy clients</Paragraph>
 				</DivCounter>
 				<DivCounter>
-					<Count>1320</Count>
+					<Count>2240</Count>
 					<Paragraph>Processed photos</Paragraph>
 				</DivCounter>
 				<DivCounter>
-					<Count>57863</Count>
+					<Count>101804</Count>
 					<Paragraph>Photo taken</Paragraph>
 				</DivCounter>
 			</SectionCounter>
