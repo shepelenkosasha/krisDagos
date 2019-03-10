@@ -35,7 +35,8 @@ const Img = styled.img`
 		margin-bottom: 20px;
 	}
 	@media (max-width: 650px) {
-		height: 300px;
+		max-width: 300px;
+		height: 200px;
 		margin-bottom: 10px;
 	}
 	

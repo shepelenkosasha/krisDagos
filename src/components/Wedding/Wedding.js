@@ -44,6 +44,11 @@ const Img = styled.img`
 		height: 400px;
 		margin-bottom: 20px;
 	}
+	@media (max-width: 650px) {
+		max-width: 300px;
+		height: 200px;
+		margin-bottom: 10px;
+	}
 	
 `
 const Section = styled.section`
