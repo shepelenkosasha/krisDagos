@@ -20,6 +20,16 @@ import Slide_12 from '../../img/Pregnancy/12.jpg';
 import Slide_13 from '../../img/Pregnancy/13.jpg';
 import Slide_14 from '../../img/Pregnancy/14.jpg';
 import Slide_15 from '../../img/Pregnancy/15.jpg';
+import Slide_16 from '../../img/Pregnancy/16.jpg';
+import Slide_17 from '../../img/Pregnancy/17.jpg';
+import Slide_18 from '../../img/Pregnancy/18.jpg';
+import Slide_19 from '../../img/Pregnancy/19.jpg';
+import Slide_20 from '../../img/Pregnancy/20.jpg';
+import Slide_21 from '../../img/Pregnancy/21.jpg';
+import Slide_22 from '../../img/Pregnancy/22.jpg';
+import Slide_23 from '../../img/Pregnancy/23.jpg';
+import Slide_24 from '../../img/Pregnancy/24.jpg';
+import Slide_25 from '../../img/Pregnancy/25.jpg';
 
 const Img = styled.img`
 	background-size: contain;
@@ -55,6 +65,16 @@ export default class Pregnancy extends Component {
 			<Row>		
 				<Col lg = {12} >
 					<Section>
+						<Img src = { Slide_16 } />
+						<Img src = { Slide_17 } />
+						<Img src = { Slide_18 } />
+						<Img src = { Slide_19 } />
+						<Img src = { Slide_20 } />
+						<Img src = { Slide_21 } />
+						<Img src = { Slide_22 } />
+						<Img src = { Slide_23 } />
+						<Img src = { Slide_24 } />
+						<Img src = { Slide_25 } />
 						<Img src = { Slide_1 } />
 						<Img src = { Slide_2 } />
 						<Img src = { Slide_3 } />
